@@ -1,0 +1,48 @@
+{
+  "name": "saavha",
+  "version": "0.0.1",
+  "description": "Web Version of the desktop app",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Justin Mahon",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.20.0",
+    "babel-loader": "^6.2.9",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-dev-expression": "^0.2.1",
+    "babel-plugin-tcomb": "^0.3.24",
+    "babel-plugin-transform-object-rest-spread": "^6.20.2",
+    "babel-plugin-webpack-loaders": "^0.8.0",
+    "babel-polyfill": "^6.20.0",
+    "babel-preset-env": "^1.1.1",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-react-hmre": "^1.1.1",
+    "babel-preset-react-optimize": "^1.0.1",
+    "babel-preset-stage-0": "^6.16.0",
+    "babel-register": "^6.18.0",
+    "babili-webpack-plugin": "^0.0.7",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "html-webpack-plugin": "^2.24.1",
+    "react-addons-test-utils": "^15.4.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.14.0",
+    "webpack-dev-middleware": "^1.8.4",
+    "webpack-hot-middleware": "^2.13.2",
+    "webpack-livereload-plugin": "^0.9.0",
+    "webpack-merge": "^1.0.2",
+    "webpack-validator": "^2.2.11"
+  },
+  "dependencies": {
+    "date-fp": "^4.4.8",
+    "font-awesome": "^4.7.0",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "react-router": "^3.0.0",
+    "semantic-ui-css": "^2.2.4",
+    "semantic-ui-react": "^0.63.2"
+  }
+}

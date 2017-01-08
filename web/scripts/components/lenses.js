@@ -1,0 +1,24 @@
+import R from 'ramda';
+
+export const dbSetupStep         = R.lensPath(['dbSetup', 'step']);
+export const dbSetupId           = R.lensPath(['dbSetup', 'currId']);
+export const dbSetupIndex        = R.lensPath(['dbSetup', 'dbListIndex']);
+export const dbSetupConnAddress  = R.lensPath(['dbSetup', 'entry', 'conn', 'address']);
+export const dbSetupConnUser     = R.lensPath(['dbSetup', 'entry', 'conn', 'user']);
+export const dbSetupConnPass     = R.lensPath(['dbSetup', 'entry', 'conn', 'pass']);
+export const dbSetupConnType     = R.lensPath(['dbSetup', 'entry', 'conn', 'type']);
+export const dbSetupAvailableDbs = R.lensPath(['dbSetup', 'availableDbs']);
+export const dbSetupSelectedDb   = R.lensPath(['dbSetup', 'selectedDb']);
+export const loginUser           = R.lensPath(['login', 'user']);
+export const loginPass           = R.lensPath(['login', 'pass']);
+export const sideMenuVisible     = R.lensPath(['sideMenuVisible']);
+export const pageHeader          = R.lensPath(['pageHeader']);
+export const pageLoading         = R.lensPath(['loading']);
+export const reportAppList       = R.lensPath(['appList']);
+export const reportAppReports    = R.lensPath(['reports']);
+export const reportAppPrevAudits = R.lensPath(['reports', 'prevAudits']);
+export const reportAppId         = R.lensPath(['reports', 'id']);
+export const reportAppName       = R.lensPath(['reports', 'header']);
+export const reportAppSubHeader  = R.lensPath(['reports', 'subHeader']);
+export const reportAppIcon       = R.lensPath(['reports', 'icon']);
+export const reportAppChanges    = R.lensPath(['reports', 'changes']);
